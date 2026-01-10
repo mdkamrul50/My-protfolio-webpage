@@ -124,7 +124,7 @@ header {
 .hero-text h1 {
   font-size: 45px;
   font-weight: 600;
-  color: #474747;
+  color: #6b6666;
   margin-left: 10px;
 }
 
@@ -186,7 +186,7 @@ header {
 
 .hero-image img {
   display: block;
-  box-shadow: inset 0 -100px 10px rgba(0,0,0,0.6);
+  /* box-shadow: inset 0 -100px 10px rgba(0,0,0,0.6); */
 }
 
 .hero-image:hover{
@@ -344,24 +344,21 @@ header {
 .resume-contain {
   display: flex;
   gap: 71px;
-/* background: rgba(255, 255, 255, 0.052);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); */
   border-radius: 0 10px 0 10px;
-  text-shadow: #f1b244c2 0px 4px 9px;
+  /* text-shadow: #12dd12c2 0px 3px 7px; */
 }
 
 .education h2 {
   font-size: 30px;
   font-weight: bold;
   padding-bottom: 30px;
-  color: #181818;
+  color: #a39595;
 }
 
 .education-1 h3 {
   font-size: 25px;
   font-weight: bold;
-  color: #181818;
+  color: #a39595;
   padding-bottom: 10px;
 }
 
@@ -369,6 +366,7 @@ header {
   font-size: 20px;
   font-weight: 400;
   padding-bottom: 30px;
+  text-shadow: #eebb13c2 0px 3px 7px;
 }
 
 hr {
@@ -380,19 +378,20 @@ hr {
   font-size: 30px;
   font-weight: bold;
   padding-bottom: 30px;
-  color: #181818;
+  color: #a39595;
 }
 
 .exprience-1 h3 {
   font-size: 25px;
   font-weight: bold;
-  color: #181818;
+  color: #a39595;
   padding-bottom: 10px;
 }
 .exprience-1 p {
   font-size: 20px;
   font-weight: 400;
   padding-bottom: 30px;
+  text-shadow: #37e620c2 0px 3px 7px;
 }
 
 .exprience hr {
